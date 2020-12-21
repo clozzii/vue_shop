@@ -8,6 +8,9 @@ import './assets/css/global.css'
 
 import axios from 'axios'
 
+import TreeTable from 'vue-table-with-tree-grid'
+Vue.component('tree-table', TreeTable)
+
 Vue.use(ElementUI)
 // Vue.prototype.$message = Message
 
